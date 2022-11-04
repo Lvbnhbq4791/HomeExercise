@@ -8,7 +8,10 @@ public class Main {
         //Создаем интовую переменную saleMonths которая ссылается
         //на метод max класса SalesManager
         int saleMonths = managers.max();
+        int saleMonthsMin = managers.min();
+        int saleMonthsAverage = managers.average();
         // выводим результат метода max класса SalesManager
-        System.out.println("Max продажи-"+saleMonths+" руб.");
+        System.out.println("Максималные продажи-"+saleMonths+" руб.");
+        System.out.println("Средние продажи-"+saleMonthsAverage+" руб.");
     }
 }
